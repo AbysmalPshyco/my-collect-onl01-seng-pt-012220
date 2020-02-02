@@ -1,3 +1,6 @@
+list = ["Tim Jones", "Tom Smith", "Jim Campagno"]
+
+
 def my_collection(empty_array)
  i = 0 
   collection = []
@@ -7,4 +10,4 @@ i += 1
 end
 collection
 end
-collection
+collection(list) {|i| i.split(" ").first
