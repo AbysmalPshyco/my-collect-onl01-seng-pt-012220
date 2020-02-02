@@ -2,7 +2,7 @@
 
 def my_collect(array)
   i = 0
-  name_collection = []
+  collection = []
   while i < array.length
     name_collection << yield(array[i})
       i += 1
@@ -10,4 +10,5 @@ def my_collect(array)
   name_collection
 end
 list = ["Tim Jones", "Tom Smith", "Jim Campagno"]
-my_collect(collection) 
+my_collect(collection) do |lang| land.upcase
+end
