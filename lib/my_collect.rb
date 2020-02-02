@@ -10,4 +10,4 @@ def my_collect(array)
   name_collection
 end
 list = ["Tim Jones", "Tom Smith", "Jim Campagno"]
-my_collect(collection)
+my_collect(collection) 
