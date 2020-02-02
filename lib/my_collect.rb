@@ -1,14 +1,10 @@
 
-
-def my_collect(array)
+def my_collect(collection)
   i = 0
-  collection = []
-  while i < array.length
-    name_collection << yield(array[i})
-      i += 1
+  new_collection = []
+  while i < collection.length
+    new_collection << yield(collection[i])
+    i += 1
   end
-  name_collection
-end
-list = ["Tim Jones", "Tom Smith", "Jim Campagno"]
-my_collect(collection) do |lang| land.upcase
+  new_collection
 end
